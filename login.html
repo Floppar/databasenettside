@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Logg inn</title>
+    <link rel="stylesheet" href="style/style.css">
+</head>
+
+<body>
+    <div class="topnav">
+        <a href="index.html">Heim</a>
+        <a href="films.html">Filmer</a>
+        <a href="randmovie.html">Finn meg ei tilfeldeg film</a>
+        <a href="user.html">Brukar</a>
+        <div class="dropdown">
+            <button class="dropbtnact">Brukar
+                <i class="fa fa-caret-down"></i></button>
+            <div class="dropdown-content">
+
+                <a class="active" href="login.html">Log in</a>
+                <a href="createuser.html">Sign up</a>
+            </div>
+        </div>
+    </div>
+    <h1 class="title">Logg inn</h1>
+    <div class="signupblock">
+        <h3>Logg inn</h3>
+        <div class="block">
+            <label for="email">Email adresse</label><br>
+            <input id="email" type="email" autocomplete="email" required>
+        </div>
+        <div class="block">
+            <label for="password">Passord</label><br>
+            <input id="password" type="password" required>
+        </div>
+        <div class="signUpBox">
+            <button id="btnCreate" onclick="login()">Logg inn</button>
+        </div>
+        <div class="signUpBox">
+            <button id="btnCreate" onclick="run()">Test</button>
+        </div>
+    </div>
+    <script src="js/register.js"></script>
+    <script src="js/test.js" type="javascript"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,304 @@
+* {
+    font-family: arial, sans-serif;
+    transition: 0.25s;
+    border-radius: 1vw;
+}
+
+body {
+    background-color: lightgrey;
+    color: black;
+}
+
+a {
+    text-decoration: none;
+    font-size: 1.25vw;
+    color: black;
+}
+
+a:hover {
+    font-size: 1.65vw;
+}
+
+input {
+    border: 0;
+}
+
+button {
+    cursor: pointer;
+}
+
+/* ------------------------------------------------------ End of type selections */
+
+.title {
+    text-align: center;
+    font-size: 3vw;
+}
+
+.block {
+    align-items: center;
+    overflow: hidden;
+    max-width: 25vw;
+    width: auto;
+    background-color: gray;
+    text-align: center;
+    margin: 10px;
+}
+
+.signupblock {
+    align-items: center;
+    overflow: hidden;
+    max-width: 25vw;
+    width: auto;
+    background-color: gray;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.signupblock > * {
+    margin: 1vw;
+}
+
+.signupblock input:hover {
+    background-color: aliceblue;
+}
+
+.signupblock button {
+    border-radius: 0.35vw;
+    background-color: white;
+    margin: 0.5vw;
+    border: 0;
+    font-size: 1vw;
+}
+
+.signupblock button:hover {
+    font-size: 1.5vw;
+    background-color: green;
+    border: 0;
+    color: white;
+}
+
+.container {
+    grid-template-columns: auto auto auto auto;
+    display: grid;
+    padding-bottom: 50px;
+    margin: 0 auto;
+    
+}
+
+.linecontainer {
+    grid-template-columns: auto auto auto auto;
+    display: grid;
+    width: 100%;
+}
+
+.movieposter {
+    width: 90%;
+    max-height: 20vw;
+    border-radius: 0.45vw;
+}
+
+.block:has(.randbtn) {
+    padding: 3vw;
+    padding-top: +1vw;
+    padding-bottom: +1vw;
+    margin: 0 auto;
+}
+.randbtn {
+    min-width: 1vw;
+    width: auto;
+    max-width: 95%;
+    
+}
+
+.singleblock {
+    overflow: hidden;
+    width: auto;
+    max-width: 70vw;
+    background-color: gray;
+    text-align: center;
+    height: auto;
+    margin: 0 auto;
+    margin-bottom: +1vw;
+}
+
+.singleblock h3.name {
+    font-size: 2vw;
+    overflow: hidden;
+    width: 100%;
+    background-color: white;
+    padding-top: +0.35vw;
+    padding-bottom: +0.65vw;
+    margin-top: 0;
+    border-radius: 0;
+}
+
+.singleblock > p {
+    font-size: 1.45vw;
+    font-family: sans-serif bold;
+    border-radius: 0.5vw;
+    min-width: 10%;
+    width:fit-content;
+    padding: 0.25vw;
+    padding-left: +1.3vw;
+    padding-right: +1.3vw;
+    background-color: white;
+    max-width: 80%;
+    margin: 0 auto;
+    margin-bottom: 1vw;
+}
+
+.singleblock img.movieposter {
+    max-width: 100%;
+    max-height: 50%;
+}
+
+.topnav {
+    background-color: white;
+    overflow: visible;
+    border-radius: 0.45vw;
+    height: 3.3vw;
+}
+
+.topnav a {
+    text-decoration: none;
+    color: black;
+    float: left;
+    text-align: center;
+    padding: 0.93vw;
+    font-size: 1.25vw;
+    position: relative;
+}
+
+.topnav a:hover {
+    background-color: black;
+    color: white;
+    border-radius: 0.45vw;
+    font-size: 1.65vw;
+}
+
+.topnav a:active {
+    background-color: dimgrey;
+}
+
+.topnav a.active {
+    background-color: gray;
+    color: white;
+    border-radius: 0.45vw;
+}
+
+.dropbtn {
+    overflow: visible;
+    padding: 0.93vw;
+    border-radius: 0.45vw;
+    height: 3.3vw;
+    font-size: 1.25vw;
+    position: relative;
+}
+
+.dropbtnact {
+    background-color: dimgrey;
+    color: white;
+    border: 0;
+    padding: 0.93vw;
+    border-radius: 0.45vw;
+    height: 3.3vw;
+    font-size: 1.25vw;
+}
+.dropdown {
+    float: left;
+    overflow: hidden;
+}
+
+.dropdown a.active {
+    background-color: dimgrey;
+    color: white;
+}
+
+.dropdown .dropbtn {
+    border: none;
+    outline: none;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+}
+
+/* For dropdown tab*/
+
+.navbar a:hover,
+.dropdown:hover .dropbtn {
+    background-color: black;
+    color: white;
+    border-radius: 0.45vw;
+    border-bottom-left-radius: 0vw;
+    border-bottom-right-radius: 0vw;
+}
+
+/* For hovering over a tab*/
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: white;
+    box-shadow: 0vw 8vw 16vw 0vw rgba(0, 0, 0, 0.2); /* 0px 8px 16px 0px */
+    z-index: 1;
+    border-top-left-radius: 0;
+}
+
+.dropdown-content:hover {
+    border-top-left-radius: 0;
+}
+
+.dropdown-content a {
+    color: black;
+    background-color: white;
+    padding: 0.93vw;
+    text-decoration: none;
+    display: block;
+    float: none;
+    text-align: left;
+    width: auto;
+    border-top-left-radius: 0;
+}
+
+/* For dropdown content*/
+
+.dropdown-content a:hover {
+    background-color: black;
+    color: white;
+    width: auto;
+    border-top-left-radius: 0;
+}
+
+.dropbtn .dropdown-content:hover {
+    background-color: pink;
+}
+
+/* For hovering on dropdown content*/
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+.dropbtn:hover {
+    border-bottom-left-radius: 0vw;
+    border-bottom-right-radius: 0vw;
+
+}
+.dropdown:hover {
+    border-radius: 0.45vw;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+}
+
+.userblock {
+    left: 90%;
+    top: 40%;
+    background-color: white;
+    width: 85vw;   
+    padding: 2vw;
+    height: 40vw;
+}
+
+.userblock.test {
+    background-color: red;
+
+}

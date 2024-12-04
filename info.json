@@ -1,0 +1,281 @@
+[
+    {
+        "moviename": "Interstellar",
+        "year": 2014,
+        "rateof10": 9.7,
+        "category": "Epic Sci-Fi",
+        "lenghtmovie": "169 minutes",
+        "tags": "Space",
+        "poster": "https://m.media-amazon.com/images/I/91obuWzA3XL.jpg"
+    },
+    {
+        "moviename": "Mortal Engines",
+        "year": 2018,
+        "rateof10": 6.1,
+        "category": "Dark Fantasy",
+        "lenghtmovie": "128 minutes",
+        "tags": "Steampunk",
+        "poster": "https://resizing.flixster.com/wnZN6VrjWe4-xyFfhtXgmoRRNyM=/ems.cHJkLWVtcy1hc3NldHMvbW92aWVzLzFlNDNkZGQ3LTEwOWItNGFmZi1iYzNjLWRmYjJhYzZkNThhZS53ZWJw"
+    },
+    {
+        "moviename": "Resident Evil",
+        "year": 2002,
+        "rateof10": 6.6,
+        "category": "Action Horror",
+        "lenghtmovie": "100 minutes",
+        "tags": "Game",
+        "poster": "https://www.rogerebert.com/wp-content/uploads/2024/03/Resident-Evil.jpg"
+    },
+    {
+        "moviename": "Star Wars: Return of the Jedi",
+        "year": 1983,
+        "rateof10": 8.3,
+        "category": "Epic Space Opera",
+        "lenghtmovie": "132 minutes",
+        "tags": "Space",
+        "poster": "https://m.media-amazon.com/images/M/MV5BNWEwOTI0MmUtMGNmNy00ODViLTlkZDQtZTg1YmQ3MDgyNTUzXkEyXkFqcGc@._V1_.jpg"
+    },
+    {
+        "moviename": "Drive",
+        "year": 2011,
+        "rateof10": 7.8,
+        "category": "Action Drama",
+        "lenghtmovie": "100 minutes",
+        "tags": "Car",
+        "poster": "https://m.media-amazon.com/images/M/MV5BYTFmNTFlOTAtNzEyNi00MWU2LTg3MGEtYjA2NWY3MDliNjlkXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg"
+    },
+    {
+        "moviename": "Blade Runner",
+        "year": 1982,
+        "rateof10": 8.1,
+        "category": "Sci-Fi",
+        "lenghtmovie": "117 minutes",
+        "tags": "Cyberpunk",
+        "poster": "https://mhspatriot.com/wp-content/uploads/2021/02/1_4KkBJLj0-_nGCblVAzlA2A.jpeg"
+    },
+    {
+        "moviename": "Blade Runner 2049",
+        "year": 2017,
+        "rateof10": 8.0,
+        "category": "Sci-Fi",
+        "lenghtmovie": "163 minutes",
+        "tags": "Cyberpunk",
+        "poster": "https://resizing.flixster.com/73VCeyfsM8UDQ0o7IjUIcXr7jd8=/ems.cHJkLWVtcy1hc3NldHMvbW92aWVzL2RlNzI0MGQyLTQ2ZTktNGMyYi05N2VmLTFjMDhiY2VlMDQ2Ni53ZWJw"
+    },
+    {
+        "moviename": "Mortal Kombat",
+        "year": 1995,
+        "rateof10": 5.8,
+        "category": "Fantasy",
+        "lenghtmovie": "101 minutes",
+        "tags": "Game",
+        "poster": "https://m.media-amazon.com/images/M/MV5BNjQyYjJjMzEtZTYzYy00ZjFmLTlkNTktNDI5ZjIwNTAxOWE0XkEyXkFqcGc@._V1_.jpg"
+    },
+    {
+        "moviename": "Fight Club",
+        "year": 1999,
+        "rateof10": 8.8,
+        "category": "Drama",
+        "lenghtmovie": "139 minutes",
+        "tags": "Fightclub",
+        "poster": "https://m.media-amazon.com/images/M/MV5BOTgyOGQ1NDItNGU3Ny00MjU3LTg2YWEtNmEyYjBiMjI1Y2M5XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg"
+    },
+    {
+        "moviename": "Tunnelen",
+        "year": 2019,
+        "rateof10": 6.0,
+        "category": "Thriller",
+        "lenghtmovie": "105 minutes",
+        "tags": "Disaster",
+        "poster": "https://p3.no/wp-content/thumbs/?src=https://p3.no/filmpolitiet/wp-content/uploads/2019/12/Tunnelen-plakat.jpg"
+    },
+    {
+        "moviename": "Avengers: Endgame",
+        "year": 2019,
+        "rateof10": 8.4,
+        "category": "Action",
+        "lenghtmovie": "181 minutes",
+        "tags": "Superhero",
+        "poster": "https://m.media-amazon.com/images/M/MV5BMTc5MDE2ODcwNV5BMl5BanBnXkFtZTgwMzI2NzQ2NzM@._V1_FMjpg_UX1000_.jpg"
+    },
+    {
+        "moviename": "Time Bandits",
+        "year": 1981,
+        "rateof10": 6.9,
+        "category": "Fantasy",
+        "lenghtmovie": "113 minutes",
+        "tags": "Steampunk",
+        "poster": "https://s3.amazonaws.com/criterion-production/films/d1ddaf83ba2425cd495aa7df240bcf64/sMIoLxvGbFo79lDLGem0KjyH93zWwq_original.jpg"
+    },
+    {
+        "moviename": "Come and See",
+        "year": 1985,
+        "rateof10": 8.3,
+        "category": "Anti-War",
+        "lenghtmovie": "142 minutes",
+        "tags": "War",
+        "poster": "https://m.media-amazon.com/images/M/MV5BNDlkZmVkZDAtZGFmMS00OWIzLWJkY2YtNWE5NjNhNjhiZGE3XkEyXkFqcGc@._V1_.jpg"
+    },
+    {
+        "moviename": "9",
+        "year": 2009,
+        "rateof10": 7.0,
+        "category": "Sci-Fi",
+        "lenghtmovie": "79 minutes",
+        "tags": "Steampunk",
+        "poster": "https://m.media-amazon.com/images/M/MV5BMTY2ODE1MTgxMV5BMl5BanBnXkFtZTcwNTM1NTM2Mg@@._V1_.jpg"
+    },
+    {
+        "moviename": "Black Knight",
+        "year": 2001,
+        "rateof10": 4.9,
+        "category": "Adventure Comedy",
+        "lenghtmovie": "95 minutes",
+        "tags": "Fantasy",
+        "poster": "https://m.media-amazon.com/images/M/MV5BNzU4Y2M0MjgtZTBkOS00Y2RjLTk0YzAtYzEzNmI4NmY3YTI4XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg"
+    },
+    {
+        "moviename": "Barbie",
+        "year": 2023,
+        "rateof10": 6.8,
+        "category": "Adventure Comedy",
+        "lenghtmovie": "114 minutes",
+        "tags": "Satire",
+        "poster": "https://m.media-amazon.com/images/M/MV5BYjI3NDU0ZGYtYjA2YS00Y2RlLTgwZDAtYTE2YTM5ZjE1M2JlXkEyXkFqcGc@._V1_.jpg"
+    },
+    {
+        "moviename": "Oppenheimer",
+        "year": 2023,
+        "rateof10": 8.3,
+        "category": "Epic Drama",
+        "lenghtmovie": "180 minutes",
+        "tags": "Historical",
+        "poster": "https://m.media-amazon.com/images/M/MV5BN2JkMDc5MGQtZjg3YS00NmFiLWIyZmQtZTJmNTM5MjVmYTQ4XkEyXkFqcGc@._V1_.jpg"
+    },
+    {
+        "moviename": "I, Robot",
+        "year": 2004,
+        "rateof10": 7.1,
+        "category": "Sci-Fi Thriller",
+        "lenghtmovie": "115 minutes",
+        "tags": "Mystery",
+        "poster": "https://m.media-amazon.com/images/M/MV5BZDdhNTY3YTgtYmQwMC00MjM1LTgzYzMtMGM1N2E0NWM1NDlkXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg"
+    },
+    {
+        "moviename": "The Texas Chain Saw Massacre",
+        "year": 1974,
+        "rateof10": 7.4,
+        "category": "Horror",
+        "lenghtmovie": "83 minutes",
+        "tags": "B-Horror",
+        "poster": "https://m.media-amazon.com/images/M/MV5BMTU1MzY2NDc2MV5BMl5BanBnXkFtZTgwMTc3MTUzMzI@._V1_.jpg"
+    },
+    {
+        "moviename": "Foodfight!",
+        "year": 2012,
+        "rateof10": 1.3,
+        "category": "Action Comedy",
+        "lenghtmovie": "87 minutes",
+        "tags": "Animated",
+        "poster": "https://m.media-amazon.com/images/M/MV5BMTYwMDY1MDI0NV5BMl5BanBnXkFtZTgwODAyODk3NzE@._V1_FMjpg_UX1000_.jpg"
+    },
+    {
+        "moviename": "Scary Movie",
+        "year": 2000,
+        "rateof10": 6.3,
+        "category": "Slapstick Comedy",
+        "lenghtmovie": "88 minutes",
+        "tags": "Parody",
+        "poster": "https://m.media-amazon.com/images/M/MV5BZGRmMGRhOWMtOTk3Ni00OTRjLTkyYTAtYzA1M2IzMGE3NGRkXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg"
+    },
+    {
+        "moviename": "Scary Movie 2",
+        "year": 2001,
+        "rateof10": 5.4,
+        "category": "Slapstick Comedy",
+        "lenghtmovie": "82 minutes",
+        "tags": "Parody",
+        "poster": "https://m.media-amazon.com/images/M/MV5BZjZlOTgzNmUtNjZlYS00NWFjLTg4ZDktMWY4NDIxMjVjZjdhXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg"
+    },
+    {
+        "moviename": "Scary Movie 3",
+        "year": 2003,
+        "rateof10": 5.6,
+        "category": "Slapstick Comedy",
+        "lenghtmovie": "84 minutes",
+        "tags": "Parody",
+        "poster": "https://m.media-amazon.com/images/M/MV5BNDE2NTIyMjg2OF5BMl5BanBnXkFtZTYwNDEyMTg3._V1_FMjpg_UX1000_.jpg"
+    },
+    {
+        "moviename": "Scary Movie 4",
+        "year": 2006,
+        "rateof10": 5.1,
+        "category": "Slapstick Comedy",
+        "lenghtmovie": "83 minutes",
+        "tags": "Parody",
+        "poster": "https://m.media-amazon.com/images/M/MV5BMjExNDQwM2QtYjFiNy00N2ZlLWE4ZGEtODdmYjY5NDdhNWE3XkEyXkFqcGc@._V1_.jpg"
+    },
+    {
+        "moviename": "Scary Movie 5",
+        "year": 2013,
+        "rateof10": 3.5,
+        "category": "Slapstick Comedy",
+        "lenghtmovie": "86 minutes",
+        "tags": "Parody",
+        "poster": "https://m.media-amazon.com/images/M/MV5BMTc5OTIxMjQ4NF5BMl5BanBnXkFtZTcwOTAyNDcyOQ@@._V1_FMjpg_UX1000_.jpg"
+    },
+    {
+        "moviename": "Scream",
+        "year": 1996,
+        "rateof10": 7.4,
+        "category": "Slasher Horror",
+        "lenghtmovie": "111 minutes",
+        "tags": "Mystery",
+        "poster": "https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p18852_p_v10_al.jpg"
+    },
+    {
+        "moviename": "Die Hard",
+        "year": 1988,
+        "rateof10": 8.2,
+        "category": "Action",
+        "lenghtmovie": "132 minutes",
+        "tags": "Holiday",
+        "poster": "https://m.media-amazon.com/images/M/MV5BMGNlYmM1NmQtYWExMS00NmRjLTg5ZmEtMmYyYzJkMzljYWMxXkEyXkFqcGc@._V1_.jpg"
+    },
+    {
+        "moviename": "12 Monkeys",
+        "year": 1995,
+        "rateof10": 8.0,
+        "category": "Sci-Fi Thriller",
+        "lenghtmovie": "129 minutes",
+        "tags": "Dystopian",
+        "poster": "https://m.media-amazon.com/images/M/MV5BMDQwNDY0M2MtOGFmNy00ZjI5LTkzN2ItMzg5M2IwZTZjY2MyXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg"
+    },
+    {
+        "moviename": "I'm Gonna Git You Sucka",
+        "year": 1988,
+        "rateof10": 6.6,
+        "category": "Action Comedy",
+        "lenghtmovie": "89 minutes",
+        "tags": "Parody",
+        "poster": "https://m.media-amazon.com/images/M/MV5BMTk0Mjc1MDY0NF5BMl5BanBnXkFtZTcwNzk3MTI0NA@@._V1_.jpg"
+    },
+    {
+        "moviename": "Don't Be a Menace to South Central While Drinking Your Juice in the Hood",
+        "year": 1996,
+        "rateof10": 6.5,
+        "category": "Buddy Comedy",
+        "lenghtmovie": "89 minutes",
+        "tags": "Parody",
+        "poster": "https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p17577_p_v10_ab.jpg"
+    },
+    {
+        "moviename": "Friday",
+        "year": 1995,
+        "rateof10": 7.2,
+        "category": "Buddy Comedy",
+        "lenghtmovie": "91 minutes",
+        "tags": "Parody",
+        "poster": "https://m.media-amazon.com/images/M/MV5BMWI3MmM2MTItN2MxZS00Y2NhLWE5ZWEtMzU3YWNiNmU3NmFmXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg"
+    }
+]

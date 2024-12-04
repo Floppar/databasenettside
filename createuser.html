@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lag ei brukar</title>
+    <link rel="stylesheet" href="style/style.css">
+</head>
+
+<body>
+    <div class="topnav">
+        <a href="index.html">Heim</a>
+        <a href="films.html">Filmer</a>
+        <a href="randmovie.html">Finn meg ei tilfeldeg film</a>
+        <a href="user.html">Brukar</a>
+        <div class="dropdown">
+            <button class="dropbtnact">Brukar
+                <i class="fa fa-caret-down"></i></button>
+            <div class="dropdown-content">
+
+                <a href="login.html">Log in</a>
+                <a class="active" href="createuser.html">Sign up</a>
+            </div>
+        </div>
+    </div>
+    <h1 class="title">Lag ei brukar</h1>
+    <div class="signupblock">
+        <h3>Lag ei ny brukar</h3>
+        <div class="block">
+            <label for="uname">Usernamn</label><br>
+            <input id="uname" type="text" required>
+        </div>
+        <div class="block">
+            <label for="email">Email adresse</label><br>
+            <input id="email" type="email" autocomplete="email">
+        </div>
+        <div class="block">
+            <label for="password">Passord</label><br>
+            <input id="password" type="password" required>
+        </div>
+        <div class="signUpBox">
+            <button id="btnCreate" onclick="signUp()">Lag ei brukar</button>
+        </div>
+    </div>
+    <div class="signUpBox">
+        <button id="checkbtn" onclick="run()">Lag ei brukar</button>
+    </div>
+    <script src="js/register.js"></script>
+</body>
+
+</html>
