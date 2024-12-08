@@ -1,4 +1,4 @@
-function login() {
+/* function login() {
     const email = document.getElementById("email").value;
     const password = document.getElementById("password").value;
     auth.signInWithEmailAndPassword(email, password)
@@ -14,56 +14,46 @@ function login() {
         })
 }
 
-function signUp() {
-    const email = document.getElementById("email").value;
-    const password = document.getElementById("password").value;
-    const uname = document.getElementById("uname").value;
+*/
 
-    // Oppretter brukar som kan logge seg og få tilgang til nettstaden
-    auth.createUserWithEmailAndPassword(email, password)
-        // Lagrar også brukaren i collection "users"
-        .then((userCredentials) => {
-            sessionStorage.setItem("uid", userCredentials.user.uid)
-            db.collection("users").doc().set({
-                username: uname,
-                email: email,
-                userId: userCredentials.user.uid
-            })
-        })
+function login() {
+  console.log("Test1")
+  const username = document.getElementById("username").value;
+  const password = document.getElementById("password").value;
+  const errorMessage = document.getElementById("error-message");
+  const successMessage = document.getElementById("success-message");
+  const userpfp = document.getElementById("userimg");
+  console.log("Test2")
 
-        .catch((err) => {
-            alert(err.message)
-            console.log(err.code);
-            console.log(err.message);
-        });
+  // Tøm tidligere meldinger
+  errorMessage.innerText = '';
+  successMessage.innerText = '';
+
+  // Les inn JSON-data (brukere)
+  fetch('user.json')
+    .then(response => response.json())
+    .then(users => {
+      // Sjekk om brukernavnet og passordet stemmer
+      const user = users.find(user => user.username === username && user.password === password);
+
+      if (user) {
+        sessionStorage.setItem('isLoggedIn', 'true');
+        window.location.href = "user.html";
+        sessionStorage.setItem('userPfp', user.pfp);
+        updateElement(userpfp, pfp, "Ingen bilete tilgjengelig");
+        console.log("Test3")
+      } else {
+        // Feilmelding hvis innloggingen er feil
+        errorMessage.textContent = 'Feil brukernavn eller passord!';
+      }
+    })
+    .catch(error => {
+      console.error('Error:', error);
+      errorMessage.textContent = 'Kunne ikke hente brukerinformasjon!';
+    });
+
 }
 
-const bcrypt = require('bcrypt');
 
-const saltRounds = 10;  // The number of rounds to salt the password
-
-// Hash the password
-async function hashPassword(password) {
-  const hashedPassword = await bcrypt.hash(password, saltRounds);
-  return hashedPassword;
-}
-
-// Verify a password
-async function verifyPassword(password, hashedPassword) {
-  const match = await bcrypt.compare(password, hashedPassword);
-  return match;
-}
-
-async function run() {
-  const password = 'mySecretPassword';
   
-  // Hashing the password
-  const hashedPassword = await hashPassword(password);
-  console.log('Hashed Password:', hashedPassword);
-  
-  // Verifying the password
-  const isMatch = await verifyPassword(password, hashedPassword);
-  console.log('Password match:', isMatch);
-}
-
-run();
+    

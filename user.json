@@ -1,0 +1,18 @@
+[
+    {
+        "username": "Testuser",
+        "userid": 1,
+        "email": "a@a.com",
+        "password": "Passord123",
+        "joindate": "04.12.2024",
+        "pfp": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSbqj9Ii13d6hx5a9kyLnC5A8A96LDSaSZv_w&s"
+    },
+    {
+        "username": "Testuser2",
+        "userid": 2,
+        "email": "ab@a.com",
+        "password": "Passord123",
+        "joindate": "04.12.2024",
+        "pfp": "https://play-lh.googleusercontent.com/j9sw84sgc1MDBILPovjZXaAGe3mdbnfRKrcNjLOWdcQCL4cTFP1Vdf_IG2ZRjyTVgj8"
+    }
+]

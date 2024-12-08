@@ -28,6 +28,10 @@
     <div class="signupblock">
         <h3>Logg inn</h3>
         <div class="block">
+            <label for="username">Username</label><br>
+            <input id="username" autocomplete="username" required>
+        </div>
+        <div class="block">
             <label for="email">Email adresse</label><br>
             <input id="email" type="email" autocomplete="email" required>
         </div>
@@ -38,12 +42,11 @@
         <div class="signUpBox">
             <button id="btnCreate" onclick="login()">Logg inn</button>
         </div>
-        <div class="signUpBox">
-            <button id="btnCreate" onclick="run()">Test</button>
-        </div>
+        <div id="error-message"></div>
+        <div id="success-message"></div>
+        <img src="Coca-Cola.png" alt="test" id="userimg">
     </div>
     <script src="js/register.js"></script>
-    <script src="js/test.js" type="javascript"></script>
 
 </body>
 

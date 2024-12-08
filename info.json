@@ -6,7 +6,10 @@
         "category": "Epic Sci-Fi",
         "lenghtmovie": "169 minutes",
         "tags": "Space",
-        "poster": "https://m.media-amazon.com/images/I/91obuWzA3XL.jpg"
+        "poster": "https://m.media-amazon.com/images/I/91obuWzA3XL.jpg",
+        "director": "Christopher Nolan",
+        "production": "Paramount Pictures",
+        "mainstar": "Matthew McConaughey"
     },
     {
         "moviename": "Mortal Engines",
@@ -15,7 +18,10 @@
         "category": "Dark Fantasy",
         "lenghtmovie": "128 minutes",
         "tags": "Steampunk",
-        "poster": "https://resizing.flixster.com/wnZN6VrjWe4-xyFfhtXgmoRRNyM=/ems.cHJkLWVtcy1hc3NldHMvbW92aWVzLzFlNDNkZGQ3LTEwOWItNGFmZi1iYzNjLWRmYjJhYzZkNThhZS53ZWJw"
+        "poster": "https://resizing.flixster.com/wnZN6VrjWe4-xyFfhtXgmoRRNyM=/ems.cHJkLWVtcy1hc3NldHMvbW92aWVzLzFlNDNkZGQ3LTEwOWItNGFmZi1iYzNjLWRmYjJhYzZkNThhZS53ZWJw",
+        "director": "Christian Rivers",
+        "production": "Universal Pictures",
+        "mainstar": "Hera Hilmer"
     },
     {
         "moviename": "Resident Evil",
@@ -24,7 +30,10 @@
         "category": "Action Horror",
         "lenghtmovie": "100 minutes",
         "tags": "Game",
-        "poster": "https://www.rogerebert.com/wp-content/uploads/2024/03/Resident-Evil.jpg"
+        "poster": "https://www.rogerebert.com/wp-content/uploads/2024/03/Resident-Evil.jpg",
+        "director": "Paul W. S. Anderson",
+        "production": "Constantin Film",
+        "mainstar": "Milla Jovovich"
     },
     {
         "moviename": "Star Wars: Return of the Jedi",
@@ -33,7 +42,10 @@
         "category": "Epic Space Opera",
         "lenghtmovie": "132 minutes",
         "tags": "Space",
-        "poster": "https://m.media-amazon.com/images/M/MV5BNWEwOTI0MmUtMGNmNy00ODViLTlkZDQtZTg1YmQ3MDgyNTUzXkEyXkFqcGc@._V1_.jpg"
+        "poster": "https://m.media-amazon.com/images/M/MV5BNWEwOTI0MmUtMGNmNy00ODViLTlkZDQtZTg1YmQ3MDgyNTUzXkEyXkFqcGc@._V1_.jpg",
+        "director": "Richard Marquand",
+        "production": "Lucasfilm Ltd.",
+        "mainstar": "Mark Hamill"
     },
     {
         "moviename": "Drive",
@@ -42,7 +54,10 @@
         "category": "Action Drama",
         "lenghtmovie": "100 minutes",
         "tags": "Car",
-        "poster": "https://m.media-amazon.com/images/M/MV5BYTFmNTFlOTAtNzEyNi00MWU2LTg3MGEtYjA2NWY3MDliNjlkXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg"
+        "poster": "https://m.media-amazon.com/images/M/MV5BYTFmNTFlOTAtNzEyNi00MWU2LTg3MGEtYjA2NWY3MDliNjlkXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
+        "director": "Nicolas Winding Refn",
+        "production": "Bold Films",
+        "mainstar": "Ryan Gosling"
     },
     {
         "moviename": "Blade Runner",
@@ -51,7 +66,10 @@
         "category": "Sci-Fi",
         "lenghtmovie": "117 minutes",
         "tags": "Cyberpunk",
-        "poster": "https://mhspatriot.com/wp-content/uploads/2021/02/1_4KkBJLj0-_nGCblVAzlA2A.jpeg"
+        "poster": "https://mhspatriot.com/wp-content/uploads/2021/02/1_4KkBJLj0-_nGCblVAzlA2A.jpeg",
+        "director": "Ridley Scott",
+        "production": "The Ladd Companys",
+        "mainstar": "Harrison Ford"
     },
     {
         "moviename": "Blade Runner 2049",

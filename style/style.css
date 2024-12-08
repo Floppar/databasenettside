@@ -289,16 +289,26 @@ button {
     border-bottom-right-radius: 0;
 }
 
-.userblock {
-    left: 90%;
-    top: 40%;
-    background-color: white;
-    width: 85vw;   
-    padding: 2vw;
-    height: 40vw;
+.centerblock {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-.userblock.test {
-    background-color: red;
+.userblock {
+    background-color: white;
+    width: 75vw;   
+    padding: 2vw;
+    height: 30vw;
+}
 
+#userimg {
+    right: 20%;
+    float: right;
+    max-width: 40%;
+    max-height: 40%;
+}
+
+.info {
+    margin-top: 10vw;
 }
